@@ -6,18 +6,18 @@ cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platfo
 cProcessPCH /var/folders/km/9b1j7nj92jdcg59rx454sx4h0000gq/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/TemperatureConverter-Prefix-cvmmzpmnlxsabgfqacybscoglvcs/TemperatureConverter-Prefix.pch.pch TemperatureConverter/TemperatureConverter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /var/folders/km/9b1j7nj92jdcg59rx454sx4h0000gq/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/TemperatureConverter-Prefix-bdfwocbkjpireseafdpctgeqdzfi/TemperatureConverter-Prefix.pch.pch TemperatureConverter/TemperatureConverter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7/ViewController.o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7/AppDelegate.o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7/main.o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7s/ViewController.o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7s/AppDelegate.o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7s/ViewController.o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7/AppDelegate.o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7s/main.o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7/TemperatureConverter normal armv7
 cLd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7s/TemperatureConverter normal armv7s
+cLd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7/TemperatureConverter normal armv7
 cCreateUniversalBinary /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter normal armv7\ armv7s
 cGenerateDSYMFile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter
 cCopyStringsFile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/en.lproj/InfoPlist.strings TemperatureConverter/en.lproj/InfoPlist.strings
-cCompileStoryboard /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/Base.lproj/Main.storyboard
 cCompileAssetCatalog /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/Images.xcassets
+cCompileStoryboard /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/Base.lproj/Main.storyboard
 cProcessInfoPlistFile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/Info.plist /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist
 cProcessProductPackaging /Users/xiaochuan/Library/MobileDevice/Provisioning\ Profiles/DB3036EB-69DB-4143-90D4-0BDA06FF88F5.mobileprovision /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/embedded.mobileprovision
 cTouch /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app
@@ -50,240 +50,25 @@ c00000000523E4B42000000000000019E
 t1379814210
 s414
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c00000000523E4B420000000000632E40
-t1379814210
-s6499904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c00000000523E4B43000000000079BFF0
-t1379814211
-s7978992
-
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c00000000523E4B4300000000004D6390
 t1379814211
 s5071760
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-c00000000523E4B43000000000042AD60
-t1379814211
-s4369760
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-c00000000523E4B430000000000306290
-t1379814211
-s3170960
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c00000000523E4B43000000000006F7F0
-t1379814211
-s456688
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c00000000523E4B430000000000A8EAD0
 t1379814211
 s11070160
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c00000000523E4B440000000000046ED0
-t1379814212
-s290512
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000523E4B44000000000063D6D0
-t1379814212
-s6543056
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-c00000000523E4B44000000000017D8E0
-t1379814212
-s1562848
-
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
 c00000000523E4B460000000002597C70
 t1379814214
 s39418992
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-c00000000523E4B480000000000387AD0
-t1379814216
-s3701456
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
-c00000000523E4B4A00000000000142B0
-t1379814218
-s82608
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-c00000000523E4B4A000000000001D2B0
-t1379814218
-s119472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-c00000000523E4B4A000000000054C820
-t1379814218
-s5556256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-c00000000523E4B4A0000000000028490
-t1379814218
-s165008
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-c00000000523E4B4A00000000000472B0
-t1379814218
-s291504
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-c00000000523E4B4A000000000003EB80
-t1379814218
-s256896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-c00000000523E4B4A000000000002AEE0
-t1379814218
-s175840
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-c00000000523E4B4A00000000000E2F20
-t1379814218
-s929568
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-c00000000523E4B4A00000000000A1FC0
-t1379814218
-s663488
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-c00000000523E4B4A000000000001D770
-t1379814218
-s120688
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-c00000000523E4B4A000000000000BF00
-t1379814218
-s48896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-c00000000523E4B4A0000000000034100
-t1379814218
-s213248
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-c00000000523E4B4A0000000000023D40
-t1379814218
-s146752
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-c00000000523E4B4A000000000001D1B0
-t1379814218
-s119216
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-c00000000523E4B4A0000000000051110
-t1379814218
-s332048
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-c00000000523E4B4A0000000000017E90
-t1379814218
-s97936
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-c00000000523E4B4B00000000001BA370
-t1379814219
-s1811312
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-c00000000523E4B4A000000000001EFF0
-t1379814218
-s126960
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-c00000000523E4B4A000000000002FA40
-t1379814218
-s195136
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-c00000000523E4B4A000000000008B3E0
-t1379814218
-s570336
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-c00000000523E4B4A00000000000B60D0
-t1379814218
-s745680
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-c00000000523E4B4A0000000000078620
-t1379814218
-s493088
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-c00000000523E4B4A0000000000060810
-t1379814218
-s395280
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-c00000000523E4B4A00000000000B6B40
-t1379814218
-s748352
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-c00000000523E4B4A0000000000039D00
-t1379814218
-s236800
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-c00000000523E4B4A000000000003E940
-t1379814218
-s256320
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-c00000000523E4B4A000000000002FC00
-t1379814218
-s195584
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-c00000000523E4B4A000000000001D9D0
-t1379814218
-s121296
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-c00000000523E4B4A000000000001EDE0
-t1379814218
-s126432
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-c00000000523E4B4A00000000000213C0
-t1379814218
-s136128
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-c00000000523E4B4A00000000000ADAC0
-t1379814218
-s711360
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
-c00000000523E4B650000000000015B84
-t1379814245
-s88964
-
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
 c00000000523E4B650000000000000AC9
 t1379814245
 s2761
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-c00000000523E4B650000000000005004
-t1379814245
-s20484
-
-N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/AppDelegate.h
-c000000005260D4BC0000000000000122
-t1382077628
-s290
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/AppDelegate.m
 c000000005260DB14000000000000080A
@@ -301,19 +86,14 @@ t1382077628
 s136
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist
-c000000005260F2B900000000000004CA
-t1382085305
+c000000005260D4BC00000000000004CA
+t1382077628
 s1226
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Prefix.pch
 c000000005260D4BC0000000000000158
 t1382077628
 s344
-
-N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/ViewController.h
-c000000005260D4BC00000000000000E4
-t1382077628
-s228
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/ViewController.m
 c000000005260D4BC00000000000001FA
@@ -331,23 +111,23 @@ t1382077628
 s350
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app
-t1382086114
-s408
+t1382081207
+s374
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM
-t1382081207
-s102
+t2
+s0
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/Base.lproj/Main.storyboardc
 t1382081207
 s170
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/Info.plist
-t1382086114
+t1382081207
 s1375
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/PkgInfo
-t1382086114
+t1382081207
 s8
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/ResourceRules.plist
@@ -355,8 +135,8 @@ t1382081205
 s150
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter
-t1382081208
-s168048
+t1382081206
+s141476
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/embedded.mobileprovision
 t1382081207
@@ -409,7 +189,7 @@ t1382081206
 s3860
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent
-t1382086114
+t1382081207
 s442
 
 N/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/assetcatalog_dependencies.txt
@@ -439,17 +219,16 @@ s81820
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc7ba1c622d11b841^27f83a622d11b841^---0#1#1#--18"Check dependencies36"8A59CC31-0AE3-448E-BDE0-9064B18D70B2-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies833285351a11b841^2bf8ad351a11b841^---0#1#1#--18"Check dependencies36"32E8558E-C074-46B4-B9AF-D0D0443E7434-
 
 CCodeSign /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app
-s403778914.311719
-e403778914.489194
+s403774007.912068
+e403774008.080006
 r1
 xCodeSign
 x/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app
-o/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app: replacing existing signature
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"[1mCodeSign[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m72"[1mCodeSign[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m08e74f622d11b841^043c7d622d11b841^-133"/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/0000000000000000^1204"[1mCodeSign[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    Using code signing identity "iPhone Developer: Yunlong Li (BS67VLUP88)" and provisioning profile "iOS Team Provisioning Profile: *" (DB3036EB-69DB-4143-90D4-0BDA06FF88F5)    codesign --force --sign C7EA2A77A8E3845DEF97937A4469E9A38454DAA6 --resource-rules=/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/ResourceRules.plist --entitlements /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app36"0FAB4F29-284E-4866-8A31-925948C4B001-
-bFFA4281E-3A2C-4328-8976-3A95B6BA2925
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"[1mCodeSign[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m72"[1mCodeSign[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m5fb6e9371a11b841^cc7b14381a11b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/0000000000000000^1204"[1mCodeSign[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    Using code signing identity "iPhone Developer: Yunlong Li (BS67VLUP88)" and provisioning profile "iOS Team Provisioning Profile: *" (DB3036EB-69DB-4143-90D4-0BDA06FF88F5)    codesign --force --sign C7EA2A77A8E3845DEF97937A4469E9A38454DAA6 --resource-rules=/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/ResourceRules.plist --entitlements /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app36"BA2E1C93-4DCE-4D8E-A964-AD726BEA97A6-
+b45F672CA-C847-4730-884F-2FD483D0BC52
 
 CCompileAssetCatalog /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/Images.xcassets
 s403774007.017141
@@ -605,14 +384,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Create
 b45F672CA-C847-4730-884F-2FD483D0BC52
 
 CGenerateDSYMFile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter
-s403778914.242646
-e403778914.262316
+s403774006.987113
+e403774007.009072
 r1
 xGenerateDSYMFile
 x/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM
 x/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generate /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM154"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/TemperatureConverter.app.dSYM[0m build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter7e363e622d11b841^f22643622d11b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM/0000000000000000^826"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/TemperatureConverter.app.dSYM[0m build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter -o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM36"FAD5F29F-1506-476E-A3E4-7F69424A548C-
-bFFA4281E-3A2C-4328-8976-3A95B6BA2925
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generate /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM154"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/TemperatureConverter.app.dSYM[0m build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter8fc3fc361a11b841^225302371a11b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM0038b08bdcffdf42^826"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/TemperatureConverter.app.dSYM[0m build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/TemperatureConverter -o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app.dSYM36"4B07BB52-FB4B-4D64-815A-E59D65234800-
+b45F672CA-C847-4730-884F-2FD483D0BC52
 
 CLd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/Objects-normal/armv7/TemperatureConverter normal armv7
 s403774006.768664
@@ -735,14 +514,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection179"Link /
 b45F672CA-C847-4730-884F-2FD483D0BC52
 
 CProcessInfoPlistFile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/Info.plist /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist
-s403778914.272335
-e403778914.275408
+s403774007.877580
+e403774007.880387
 r1
 xProcessInfoPlistFile
 x/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/Info.plist
 x/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Process /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist148"[1mProcessInfoPlistFile[0m build/Release-iphoneos/TemperatureConverter.app/Info.plist [1mTemperatureConverter/TemperatureConverter-Info.plist[0m68cb45622d11b841^678146622d11b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist0000000000000000^1248"[1mProcessInfoPlistFile[0m build/Release-iphoneos/TemperatureConverter.app/Info.plist [1mTemperatureConverter/TemperatureConverter-Info.plist[0m    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-infoPlistUtility /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist -genpkginfo /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/ResourceRules.plist -additionalcontentfile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/assetcatalog_generated_info.plist -o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/Info.plist36"08062B57-F5A6-4892-8F45-45959F2B1373-
-bFFA4281E-3A2C-4328-8976-3A95B6BA2925
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Process /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist148"[1mProcessInfoPlistFile[0m build/Release-iphoneos/TemperatureConverter.app/Info.plist [1mTemperatureConverter/TemperatureConverter-Info.plist[0m5ebbe0371a11b841^f661e1371a11b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist0000000000000000^1248"[1mProcessInfoPlistFile[0m build/Release-iphoneos/TemperatureConverter.app/Info.plist [1mTemperatureConverter/TemperatureConverter-Info.plist[0m    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-infoPlistUtility /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/TemperatureConverter/TemperatureConverter-Info.plist -genpkginfo /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/ResourceRules.plist -additionalcontentfile /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/assetcatalog_generated_info.plist -o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/Info.plist36"54694863-3207-4AD0-9492-5946FB94A82F-
+b45F672CA-C847-4730-884F-2FD483D0BC52
 
 CProcessPCH /var/folders/km/9b1j7nj92jdcg59rx454sx4h0000gq/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/TemperatureConverter-Prefix-bdfwocbkjpireseafdpctgeqdzfi/TemperatureConverter-Prefix.pch.pch TemperatureConverter/TemperatureConverter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403774005.697613
@@ -775,14 +554,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Precomp
 b45F672CA-C847-4730-884F-2FD483D0BC52
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent
-s403778914.300417
-e403778914.303198
+s403774007.900477
+e403774007.903734
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
 x/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection264"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent[0m264"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent[0m48fa4c622d11b841^5e9f4d622d11b841^---0#0#1#-19%DVTDocumentLocation2@174"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent0000000000000000^946"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent[0m    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent36"AB9546A7-76FC-4562-86D1-B2429E2D6FCF-
-bFFA4281E-3A2C-4328-8976-3A95B6BA2925
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection264"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent[0m264"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent[0mfe98e6371a11b841^c45be7371a11b841^---0#0#1#-19%DVTDocumentLocation2@174"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent0038b08bdcffdf42^946"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent[0m    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/TemperatureConverter.build/Release-iphoneos/TemperatureConverter.build/TemperatureConverter.xcent36"CCD3DFB8-72AE-4949-8C7F-7D0A628C3B05-
+b45F672CA-C847-4730-884F-2FD483D0BC52
 
 CProcessProductPackaging /Users/xiaochuan/Library/MobileDevice/Provisioning\ Profiles/DB3036EB-69DB-4143-90D4-0BDA06FF88F5.mobileprovision /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/embedded.mobileprovision
 s403774007.888687
@@ -795,20 +574,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection226"[1mPr
 b45F672CA-C847-4730-884F-2FD483D0BC52
 
 CTouch /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app
-s403778914.285776
-e403778914.292428
-r1
-xTouch
-x/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Touch /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app61"[1mTouch[0m build/Release-iphoneos/TemperatureConverter.appfb3d49622d11b841^59dd4a622d11b841^---0#0#1#--523"[1mTouch[0m build/Release-iphoneos/TemperatureConverter.app    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /usr/bin/touch -c /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app36"64A3B0FC-73E6-43CB-966D-7CB7542AA8EA-
-bFFA4281E-3A2C-4328-8976-3A95B6BA2925
+r0
 
 CValidate /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app
-s403778914.497319
-e403778914.525999
+s403774008.088110
+e403774008.155348
 r1
 xValidate
 x/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"[1mValidate[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m72"[1mValidate[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m84627f622d11b841^f0a786622d11b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/0000000000000000^675"[1mValidate[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app36"1C761945-6AEC-46CD-9830-4977685878B7-
-bFFA4281E-3A2C-4328-8976-3A95B6BA2925
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"[1mValidate[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m72"[1mValidate[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0mf19f16381a11b841^37c527381a11b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app/0000000000000000^675"[1mValidate[0m [1mbuild/Release-iphoneos/TemperatureConverter.app[0m    cd /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/xiaochuan/Desktop/UnitTest/TemperatureConverter/build/Release-iphoneos/TemperatureConverter.app36"E4721074-1AAD-4F61-9814-460C45390EFA-
+b45F672CA-C847-4730-884F-2FD483D0BC52
 
